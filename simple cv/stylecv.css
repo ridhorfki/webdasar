@@ -1,0 +1,45 @@
+img {
+    background-color: rgb(232, 232, 232);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding 50px;
+  }
+  
+
+h1 {
+    font-family:Poppins;
+    font-style:oblique;
+    font-size: 42px;
+    padding-left: 5px;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 23px;
+    padding-left: 13px;
+    order-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+}
+
+p {
+    font-family: poppins;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+ul {
+    font-family: poppins;
+    font-size: 15px;
+    padding-left: 35px;
+}
+
+ol {
+    font-family: poppins;
+    font-size: 15px;
+    padding-left: 35px;
+
+}
