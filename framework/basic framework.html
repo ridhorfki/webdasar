@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/styleframewok.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="shadow-sm p-2 mb-1 bg-body-tertiary rounded">
+        <nav class="nav justify-content-center">
+          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
+    
+    <br />
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--profile-->
+    <div class="text-center">
+      <img id="profile" src="./images/manstand.jpg" width="200px" />
+    </div>
+    <br />
+    <h1>Mickael Thompson</h1>
+    <ul class="list-inline">
+      <li class="list-inline-item">w e b s i t e</li>
+      <li class="list-inline-item">d e v e l o p e r</li>
+    </ul>
+    <!--akhir profile-->
+
+    <!--about-->
+    <div id="about-me" class="px-3 py-5 my-2">
+      <h2 class="text-center">About Me</h2>
+      <div class="container">
+          <div class="row my-2 py-3">
+            <div class="col">
+              <img src="./images/manshow.jpg" width="450px" class="rounded"/>
+            </div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, cum. Consequatur accusantium deserunt numquam laboriosam, aperiam, vel eius neque repudiandae deleniti cum, totam delectus voluptatum quaerat magnam maxime amet nemo.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, cum. Consequatur accusantium deserunt numquam laboriosam, aperiam, vel eius neque repudiandae deleniti cum, totam delectus voluptatum quaerat magnam maxime amet nemo.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, cum. Consequatur accusantium deserunt numquam laboriosam, aperiam, vel eius neque repudiandae deleniti cum, totam delectus voluptatum quaerat magnam maxime amet nemo.</p>
+            </div>
+          </div>
+        </div>
+  </div>
+    <!--akhir about-->
+
+    <br>
+    <br>
+
+    <!--my skill-->
+    <div id="my skill" class="px-3 py-5 my-2">
+      <h3 class="text-center">My Skill</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-4 my-2 py-3">
+        <!-- kolom 1 -->
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="./images/computer.jpg" class="card-image-top"/>
+              <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary form-control">Go somewhere</a>
+              </div>
+          </div>
+        </div>
+        <!-- kolom 2 -->
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="./images/web.jpg" class="card-image-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary form-control">Go somewhere</a>
+              </div>
+          </div>
+        </div>
+        <!-- kolom 3 -->
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="./images/meeting.jpg" class="card-image-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Design Thinking</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary form-control">Go somewhere</a>
+              </div>
+          </div>
+        </div>
+        <!-- kolom 4 -->
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="./images/together.jpg" class="card-image-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Project Managemet</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary form-control">Go somewhere</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <!--akhir my skill-->
+    
+    <!--contact-->
+    <div id="contact-me" class="px-3 py-5 my-2">
+      <h2 class="text-center">Contact Me</h2>
+      <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-primary form-control">Submit</button>
+        </div>
+  </div>
+    <!--akhir contact-->
+   
+  </body>
+
+   <!--footer-->
+   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+    </ul>
+</footer>
+</html>

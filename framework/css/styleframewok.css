@@ -1,0 +1,35 @@
+ /* profile */
+ #profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  /* header */
+  ul{
+    text-align: center;
+  }
+
+nav{
+  font-weight: bold;
+}
+
+.nav-link{
+  color: black;
+}
+
+  h3{
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+
+
+
